@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <item
+        android:id="@+id/favFrag"
+        android:title="@string/favorites_title"
+        android:icon="@drawable/favorites"
+        />
+
+    <item
+        android:id="@+id/thingFrag"
+        android:title="@string/things_title"
+        android:icon="@drawable/things"
+        />
+
+    <item
+        android:id="@+id/routineFrag"
+        android:title="@string/routines_title"
+        android:icon="@drawable/routines"
+
+        />
+
+    <item
+        android:id="@+id/ideasFrag"
+        android:title="@string/ideas_title"
+        android:icon="@drawable/ideas"
+
+        />
+
+    <item
+        android:id="@+id/settingFrag"
+        android:title="@string/settings_title"
+        android:icon="@drawable/settings_1"
+
+        />
+
+</menu>

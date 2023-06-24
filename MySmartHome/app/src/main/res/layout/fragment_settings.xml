@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SettingsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/setting_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EEE200"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:title="@string/app_name"
+            app:titleMarginStart="140dp"
+            app:titleTextColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_title_1"
+                android:textSize="25sp"
+                android:id="@+id/user_settings"
+                android:padding="10sp"
+                app:layout_constraintTop_toBottomOf="@id/setting_toolbar"
+
+                />
+
+            <LinearLayout
+                android:id="@+id/user_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toBottomOf="@id/user_settings"
+                >
+
+
+
+                <LinearLayout
+                    android:padding="20sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                                        >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:drawableLeft="@drawable/baseline_account_circle"
+                        android:drawablePadding="25dp"
+                        android:text="@string/settings_title_1_name"
+                        android:textSize="23sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/settings_title_1_email"
+                        android:textSize="18sp"
+                        android:layout_marginStart="50dp"
+                                               />
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+            <TextView
+                app:layout_constraintTop_toBottomOf="@id/user_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_title_2"
+                android:textSize="25sp"
+                android:id="@+id/home_linear"
+                android:padding="10sp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/hubs"
+                app:layout_constraintTop_toBottomOf="@id/home_linear"
+
+                >
+
+
+
+                <TextView
+
+                    android:id="@+id/accounts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:drawableLeft="@drawable/baseline_person"
+                    android:drawablePadding="25dp"
+                    android:text="@string/settings_title_2_acc"
+                    android:textSize="23sp"
+                    android:padding="20sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/clients"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toBottomOf="@id/hubs"
+
+                >
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/settings_title_2_clients"
+                    android:drawableLeft="@drawable/baseline_group"
+                    android:textSize="23sp"
+                    android:drawablePadding="25dp"
+                    android:padding="20sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/location"
+                app:layout_constraintTop_toBottomOf="@id/clients"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:drawableLeft="@drawable/baseline_location"
+                    android:text="@string/settings_title_2_loc"
+                    android:textSize="23sp"
+                    android:padding="20sp"
+                    android:drawablePadding="25dp"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                app:layout_constraintTop_toBottomOf="@id/location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_title_3"
+                android:textSize="25sp"
+                android:id="@+id/voice"
+                android:padding="10sp"
+                />
+            <LinearLayout
+                android:id="@+id/voice_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toBottomOf="@+id/voice"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/settings_title_3_ass"
+                    android:drawableLeft="@drawable/baseline_record_voice"
+                    android:textSize="23sp"
+                    android:drawablePadding="25dp"
+                    android:padding="20sp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/permissions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_title_4"
+                android:textSize="25sp"
+                app:layout_constraintTop_toBottomOf="@id/voice_linear"
+                android:padding="10sp"
+                />
+            <LinearLayout
+                app:layout_constraintTop_toBottomOf="@id/permissions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/settings_title_4_note"
+                    android:drawableLeft="@drawable/baseline_settings"
+                    android:textSize="23sp"
+                    android:padding="20sp"
+                    android:drawablePadding="25dp"
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+</FrameLayout>

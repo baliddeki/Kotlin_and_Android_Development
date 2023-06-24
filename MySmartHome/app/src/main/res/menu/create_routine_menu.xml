@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/okay"
+        android:title="okay"
+        android:icon="@drawable/done_tick"
+        app:showAsAction="always"
+        android:iconTint="@color/white"
+        />
+
+
+</menu>

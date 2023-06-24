@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">My Smart Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Favorites strings -->
+    <string name="favorites_title">Favorites</string>
+    <string name="favorites_1">No Favorites! &#xA;</string>
+    <string name="favorites_2">Add your favorite routines for easy access here &#xA;</string>
+    <string name="favorites_3">Tap the \'+\' button to add your favorite routines</string>
+    <string name="write">Write</string>
+
+    <!-- Things strings -->
+    <string name="things_title">Things</string>
+    <string name="things_1">No things! &#xA;</string>
+    <string name="things_2">It looks like we didn\'t discover any devices. &#xA; &#xA; Try an option below </string>
+    <string name="things_button_1">Run discovery</string>
+    <string name="things_button_2">Add a cloud account</string>
+    <string name="things_button_3">View our supported devices</string>
+    <string name="things_button_4">Contact support</string>
+    <string name="search">Search</string>
+    <string name="options">Other Options</string>
+
+    <!-- Routines strings -->
+    <string name="routines_title">Routines</string>
+    <string name="routines_1">No Routines! &#xA;</string>
+    <string name="routines_2">Click the \'+\' button below to get started</string>
+    <string name="set">More Settings</string>
+
+    <!-- Ideas strings -->
+    <string name="ideas_title">Ideas</string>
+    <string name="ideas_1">More Recommendations</string>
+    <string name="ideas_2">Even more recommendations!</string>
+    <string name="ideas_3">Thanksgiving Dinner &#xA; Ready</string>
+    <string name="ideas_4">Send me a notification</string>
+
+    <!-- Settings strings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_title_1">User Settings</string>
+    <string name="settings_title_1_name">Moses</string>
+    <string name="settings_title_1_email">kmntanda@gmail.com</string>
+
+    <string name="settings_title_2">Home Settings</string>
+    <string name="settings_title_2_acc">Accounts &amp; Hubs</string>
+    <string name="settings_title_2_clients">Clients</string>
+    <string name="settings_title_2_loc">Locations</string>
+
+    <string name="settings_title_3">Voice</string>
+    <string name="settings_title_3_ass">Voice Assistants</string>
+
+    <string name="settings_title_4">App permissions</string>
+    <string name="settings_title_4_note">Notifications &amp; Permissions</string>
+
+    //SelectRoutineActivity Strings
+    <string name="select_title">Select a Routine</string>
+    <string name="select_createRoutine">Create a new Routine</string>
+    <string name="active">Active</string>
+
+    //CreateRoutineActivity Strings
+    <string name="create_title">Create a Routine</string>
+    <string name="routine_name">Routine Name</string>
+    <string name="when">When</string>
+    <string name="when_text">Want this routine to run automatically? &#xA; Add an event below </string>
+    <string name="when_text2">Add Event</string>
+    <string name="run">Run these actions</string>
+    <string name="run_text">No actions. Tap below to add one</string>
+    <string name="run_text2">Add Action</string>
+    <string name="run_text3">Add Condition</string>
+    <string name="but">But only if</string>
+    <string name="but_text">Add an event before adding conditions</string>
+
+    //AddEventActivity Strings
+    <string name="event_title">Select an Event </string>
+    <string name="time">The time is <b>Time</b></string>
+    <string name="location">It\'s sunset at <b>Location</b> </string>
+    <string name="location_2">It\'s sunrise at <b>Location</b></string>
+    <string name="location_3">It\'s 15 minutes before sunrise at <b>Location</b></string>
+    <string name="location_4">It\'s 15 minutes after sunrise at <b>Location</b></string>
+    <string name="location_5">It\'s 15 minutes before sunset at <b>Location</b></string>
+    <string name="location_6">It\'s 15 minutes after sunset at <b>Location</b></string>
+
+    //AddAction Strings
+    <string name="addAction_title">Select a Thing </string>
+    <string name="addAction_thing">THINGS </string>
+    <string name="addAction_scenes">SCENES </string>
+    <string name="addAction_routines">ROUTINES </string>
+    <string name="addAction_notification">Notification </string>
+
+    //AddRoutine Strings
+    <string name="addRoutine_title">Select a Routine</string>
+    <string name="addRoutine_createRoutine">Create a new Routine</string>
+    <string name="title_activity_add_action">AddActionActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    //SelectAction Strings
+    <string name="selectAction_enter">Enter notification text here...</string>
+</resources>

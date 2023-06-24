@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/AddActionThingsFragment"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AddActionThingsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/AddActionThingsConstraintLayout"
+        android:layout_marginTop="100dp"
+        >
+
+        <TextView
+            android:id="@+id/AddActionThingsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/AddActionThingsFragment"
+            android:layout_margin="5dp"
+            android:drawableTop="@drawable/chat_bubble_fill1_wght400_grad0_opsz48__1_"
+            android:text="@string/addAction_notification"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="NotSibling" />
+        <TextView
+            android:layout_marginTop="200dp"
+            android:id="@+id/AddActionThingsInvisibleTextView"
+            app:layout_constraintTop_toBottomOf="@id/AddActionThingsFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/selectAction_enter"
+            android:textSize="20sp"
+
+            android:layout_margin="5dp"
+            android:visibility="gone"
+            tools:ignore="NotSibling" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
