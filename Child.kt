@@ -14,6 +14,12 @@ class Child: Parent {
         println("The child makes a sound of crying")
     }
 
+    //Implementing abstract variables and methods
+    override fun showGrand(granny: String): String {
+        return granny
+    }
+    override var grannyAge: Int = 100
+
 }
 
 
@@ -22,5 +28,6 @@ fun main(args: Array<String>) {
     childObj.parentDetails()
     childObj.animalSound()
     childObj.superSound()
+    println("Your grand parent is ${childObj.showGrand("Nakakaawa")} and is aged ${childObj.grannyAge} years")
 
 }

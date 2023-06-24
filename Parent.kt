@@ -1,4 +1,4 @@
-open class Parent {
+open abstract class Parent {
 
     var parentName: String? = null
     var parentAge: Int? = null
@@ -16,5 +16,13 @@ open class Parent {
         println("This is animal sound from the parent")
 
     }
+
+
+    //abstract classes in Kotlin
+
+    abstract fun showGrand(granny: String): String
+
+    abstract var grannyAge: Int
+
 
 }
