@@ -10,4 +10,11 @@ open class Parent {
         println("Parent name is $parentName \n" +
                 "Parent age is $parentAge")
     }
+
+    //code to demonstrate function overriding
+    open fun animalSound(){
+        println("This is animal sound from the parent")
+
+    }
+
 }

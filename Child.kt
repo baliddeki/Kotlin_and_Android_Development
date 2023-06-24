@@ -5,7 +5,14 @@ class Child: Parent {
         this.parentAge = parentAge
     }
 
+    fun superSound(){
+        super.animalSound()
+    }
 
+
+    override fun animalSound(){
+        println("The child makes a sound of crying")
+    }
 
 }
 
@@ -13,5 +20,7 @@ class Child: Parent {
 fun main(args: Array<String>) {
     var childObj = Child("Namikisa Grace", 55)
     childObj.parentDetails()
+    childObj.animalSound()
+    childObj.superSound()
 
 }
