@@ -1,6 +1,7 @@
 class Artist {
     var artistName: String? = null
     var artistAge: Int? = null
+        private set //restricts the set method for artistAge variable to only within this class
     var artistSex: Boolean? = null
 
 
@@ -18,5 +19,6 @@ class Artist {
 
 fun main(args: Array<String>) {
     var obj = Artist("Bryan", 22, true)
+    obj.artistSex = false
     println("The artist name is ${obj.artistName}, he's aged ${obj.artistAge} and sex is ${obj.artistSex}")
 }
